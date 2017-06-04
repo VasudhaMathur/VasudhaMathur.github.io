@@ -1,6 +1,5 @@
 
-# Ruqola, Google Summer of Code 2017
-### WikiToLearn, KDE
+# Ruqola, Google Summer of Code 2017, WikiToLearn, KDE
 
 [Ruqola](https://github.com/WikiToLearn/Ruqola) is a Qt interface to Rocket Chat, with a library implementing DDP semantics, and a QML UI for both desktop and mobile phones. The application is a QML/C++/Qt app, thus providing multi-platform portability. Currently there is no native Rocket.Chat client; Ruqola will be the first generic chat application based on Rocket.Chat.
 
@@ -22,12 +21,12 @@ During this time I and my mentors, Riccardo Iaconelli and Gabriele Lazzaro Falas
 
 From may30,2017 the coding period started. 
 
-**May30-June4**
+**May30-June4**  
 My first task was to extend the data models. I had to represent the message object and room object to have a 1:1 correspondence with the Rocket.Chat internally. 
 Then I added support for sending images over the network. The functionality goes like this- let the user select an image from a file, upload it, encode it to base64 to send it over the network, recieve it at the other end, decode it from base64, save the file on a local cache and then finally display it to the client. The backend works perfectly; I'll get to the front end after July.
 [Here](https://github.com/WikiToLearn/Ruqola/pull/5) is a link to the code where this part was accomplished.
 
-**June4**
+**June4**  
 My next task is to handle network managemnet to make sure the app runs under all network conditions.  
   
   
