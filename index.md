@@ -1,7 +1,4 @@
----
-layout: jekyll-theme-tactile
-title: Ruqola, WikiToLearn, KDE 
----
+# My Journey With WikiToLearn
 
 # Ruqola, WikiToLearn, KDE
 
