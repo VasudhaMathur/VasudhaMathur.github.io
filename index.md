@@ -39,4 +39,4 @@ My next task is to handle network managemnet to make sure the app runs under all
 
 
 
-### Ruqola ![systray](https://github.com/VasudhaMathur/VasudhaMathur.github.io/blob/master/images/systray.png)
+# Ruqola ![systray](https://github.com/VasudhaMathur/VasudhaMathur.github.io/blob/master/images/systray.png)
