@@ -1,6 +1,6 @@
 
 # Ruqola, Google Summer of Code 2017
-## WikiToLearn, KDE
+### WikiToLearn, KDE
 
 [Ruqola](https://github.com/WikiToLearn/Ruqola) is a Qt interface to Rocket Chat, with a library implementing DDP semantics, and a QML UI for both desktop and mobile phones. The application is a QML/C++/Qt app, thus providing multi-platform portability. Currently there is no native Rocket.Chat client; Ruqola will be the first generic chat application based on Rocket.Chat.
 
@@ -39,4 +39,4 @@ My next task is to handle network managemnet to make sure the app runs under all
 
 
 
-# Ruqola ![Ruqola-Icon](https://drive.google.com/open?id=0B44WfREsAAQHQ2Rrak02TkNydW8)
+### Ruqola ![systray](https://github.com/VasudhaMathur/VasudhaMathur.github.io/blob/master/images/systray.png)
