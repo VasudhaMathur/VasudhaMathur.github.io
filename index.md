@@ -39,4 +39,7 @@ My next task is to handle network managemnet to make sure the app runs under all
 
 
 
-### Ruqola ![systray](https://github.com/VasudhaMathur/VasudhaMathur.github.io/blob/master/images/systray.png) {:height="700px" width="400px"}
+### Ruqola 
+![systray](https://github.com/VasudhaMathur/VasudhaMathur.github.io/blob/master/images/systray.png){:class="img-responsive"}
+![systray](https://github.com/VasudhaMathur/VasudhaMathur.github.io/blob/master/images/systray.png){:height="50%" width="50%"}
+![systray](https://github.com/VasudhaMathur/VasudhaMathur.github.io/blob/master/images/systray.png){:height="700px" width="400px"} 
