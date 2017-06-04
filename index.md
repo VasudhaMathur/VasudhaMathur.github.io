@@ -1,5 +1,7 @@
-# My Journey With WikiToLearn
-
+---
+layout: post
+title: Ruqola
+---
 ## Ruqola, WikiToLearn, KDE
 
 [Ruqola](https://github.com/WikiToLearn/Ruqola) is a Qt interface to Rocket.Chat, with a library implementing DDP semantics, and a QML UI for both desktop and mobile phones. The application is a QML/C++/Qt app, thus providing multi-platform portability. Currently there is no native Rocket.Chat client; Ruqola will be the first generic chat application based on Rocket.Chat.
