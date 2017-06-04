@@ -38,5 +38,4 @@ My next task is to handle network managemnet to make sure the app runs under all
   
 
 
-## Ruqola 
-<img src="https://github.com/VasudhaMathur/VasudhaMathur.github.io/blob/master/images/systray.png" alt="Ruqola-Icon" width="40px" height="40px">
+## Ruqola <img src="https://github.com/VasudhaMathur/VasudhaMathur.github.io/blob/master/images/systray.png" alt="Ruqola-Icon" width="40px" height="40px">
