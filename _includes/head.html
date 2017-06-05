@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vasudha Mathur – Vasudha – Developer, WikiToLearn, KDE</title>
+    
+    <!-- jekyll-feed link -->
+    {% feed_meta %}
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="Developer, WikiToLearn, KDE">
+    <meta property="og:description" content="Developer, WikiToLearn, KDE" />
+    
+    <meta name="author" content="Vasudha" />
+
+    
+    <meta property="og:title" content="Vasudha Mathur" />
+    <meta property="twitter:title" content="Vasudha Mathur" />
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Vasudha - Developer, WikiToLearn, KDE" href="/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="/" class="site-avatar"><img src="https://avatars2.githubusercontent.com/u/14920676?v=3&u=2abcface36dac3155bacce17d054aca9af39b40f&s=400" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="/">Vasudha</a></h1>
+            <p class="site-description">Developer, WikiToLearn, KDE</p>
+          </div>
+
+          <nav>
+            <a href="/">Blog</a>
+            <a href="/about">About</a>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      <article class="post">
+  <h1>Vasudha Mathur</h1>
+
+  <div class="entry">
+    <h2 id="ruqola-wikitolearn-kde">Ruqola, WikiToLearn, KDE</h2>
+<p><a href="https://github.com/WikiToLearn/Ruqola">Ruqola</a> is a Qt interface to Rocket.Chat, with a library implementing DDP semantics, and a QML UI for both desktop and mobile phones. The application is a QML/C++/Qt app, thus providing multi-platform portability. Currently there is no native Rocket.Chat client; Ruqola will be the first generic chat application based on Rocket.Chat.</p>
+
+<p>This project will consist in designing and developing a chat application for WikiToLearn. New features such as adding notification support through the whole application, creating a more complex model for messages (e.g. support for reactions, images, and advanced features), network management, adding OAuth/federated login support for both desktop and mobile app, provide a UI which works for all servers will be implemented.</p>
+
+<h2 id="google-summer-of-code-2017">Google Summer of Code 2017</h2>
+
+<h3 id="before-gsoc">Before GSoC</h3>
+<p>I have been working on Ruqola since January this year. My first task was to add notifications support on desktop app. Since I was new to Qt/QML and Rocket.Chat, it took me quite a while to get familiar with the code base and technology. Finally my <a href="https://github.com/WikiToLearn/Ruqola/pull/3">PR</a> (my first PR ever) got merged into the original code for Ruqola. That felt very satisfying.
+There was no looking back from here. I wrote a proposal for Ruqola, got it reviewed by a lot of people, modified, got it reviwed again, and repeated till it looked satisfying enough. While writing the proposal my mentor, Riccardo Iaconelli, told me to write it as how “I” would like it to be and that it’s my baby project, I gotta care of it! Ruphy has always been very humble and supportive.</p>
+
+<p>Between the coding, I got to know the WikiToLearn community. I must emphasize on how positive and friendly each one of them is. I still remember the moment how I was welcomed in the community when I joined WikiToLearn Chat; so many unknown people welcoming you with such smiles wanting to know you and help you out. I’m more than happy to be a part of this amazing community. The journey form being welcomed to myself welcoming new people in the community has been incredible (the good part being that it has just started) and gave me a bunch of as amazing friends too.</p>
+
+<p>On May4,2017, I got selected as a student developer in the Google Summer of Code 2017 for project Ruqola under KDE.</p>
+
+<h3 id="during-gsoc">During GSoc</h3>
+<p>The first month is for community bonding. I had previously known WikiToLearn peeps so my community bonding included knowing people from KDE and other organizations. The common GSoC groups made the members aware of how diverse students,from 72 countries, will be working with a record 201 open source organizations this summer. That’s a huge number.
+During this time I and my mentors, Riccardo Iaconelli and Gabriele Lazzaro Falasca, planned out our timeline, set up the phabricator and made our etherpad notes. We decided to first tackle the backend and then the front end. And we were set to roll.</p>
+
+<p>From may30,2017 the coding period started.</p>
+
+<p><strong>May30-June4</strong><br />
+My first task was to extend the data models. I had to represent the message object and room object to have a 1:1 correspondence with the Rocket.Chat internally. 
+Then I added support for sending images over the network. The functionality goes like this- let the user select an image from a file, upload it, encode it to base64 to send it over the network, recieve it at the other end, decode it from base64, save the file on a local cache and then finally display it to the client. The backend works perfectly; I’ll get to the front end after July.
+<a href="https://github.com/WikiToLearn/Ruqola/pull/5">Here</a> is a link to the code where this part was accomplished.</p>
+
+<p><strong>June4</strong><br />
+My next task is to handle network managemnet to make sure the app runs under all network conditions.</p>
+
+<h3 id="ruqola-"><a href="https://github.com/WikiToLearn/Ruqola">Ruqola</a> <img src="/images/systray.png" alt="Ruqola-Icon" width="25px" height="25px" /></h3>
+
+  </div>
+
+  <div class="date">
+    Written on 
+  </div>
+
+  
+</article>
+
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          
+<a href="mailto:vasudhamathur96@gmail.com"><i class="svg-icon email"></i></a>
+<a href="https://www.facebook.com/vasudha.mathur3"><i class="svg-icon facebook"></i></a>
+
+<a href="https://github.com/VasudhaMathur"><i class="svg-icon github"></i></a>
+
+<a href="https://www.linkedin.com/in/vasudha-mathur"><i class="svg-icon linkedin"></i></a>
+
+
+
+
+
+
+        </footer>
+      </div>
+    </div>
+
+    
+	<!-- Google Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-100494817-1', 'auto');
+		ga('send', 'pageview', {
+		  'page': '/',
+		  'title': 'Vasudha Mathur'
+		});
+	</script>
+	<!-- End Google Analytics -->
+
+
+  </body>
+</html>
