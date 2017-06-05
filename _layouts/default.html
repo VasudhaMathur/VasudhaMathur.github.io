@@ -2,6 +2,8 @@
 <html>
   <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    
+    {% feed_meta %}
 
     {% include meta.html %}
 
