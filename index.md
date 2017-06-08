@@ -30,7 +30,7 @@ Then I added support for sending images over the network. The functionality goes
 [Here](https://github.com/WikiToLearn/Ruqola/pull/5) is a link to the code where this part was accomplished.
 
 **June4**  
-My next task is to handle network managemnet to make sure the app runs under all network conditions.
+My next task is to handle network management to make sure the app runs under all network conditions.
   
   
   
