@@ -4,7 +4,7 @@ html {
   height: 100%;
 }
 body {
-  background: #bcdee7 url("https://github.com/VasudhaMathur/VasudhaMathur.github.io/blob/master/images/bg.png") no-repeat center center fixed;
+  background: #bcdee7 url("./images/bg.png") no-repeat center center fixed;
   background-size: 120% auto;
   position: fixed;
   padding: 0px;
