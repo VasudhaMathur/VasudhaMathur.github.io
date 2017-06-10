@@ -54,7 +54,7 @@ p {
   z-index: 2;
   overflow: hidden;
   opacity: 0;
-  margin-top: 50px;
+  margin-top: 40px;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   -webkit-border-radius: 50%;
@@ -67,7 +67,7 @@ p {
 .profile-card header {
   width: 200px;
   height: 280px;
-  padding: 30px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
   display: inline-block;
   float: left;
   border-right: 2px dashed #EEEEEE;
@@ -89,7 +89,7 @@ p {
   display: inline-block;
   text-align: center;
   position: relative;
-  margin: 20px 30px;
+  margin: 10px 30px;
 }
 .profile-card header a > img {
   width: 120px;
@@ -113,7 +113,7 @@ p {
   padding: 30px 20px 30px 20px;
   background: #FFFFFF;
   color: #5b5b5b;
-  margin-top: 8px;
+  margin-top: 4px;
   text-align: center;
   opacity: 0;
   -webkit-animation: moveIn 1s 3.1s ease forwards;
