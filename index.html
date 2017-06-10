@@ -110,10 +110,27 @@ layout: default
                  </path>
                </g>
              </svg> -->
-             <img border="0" alt="Instagram" src="./images/instagram-logo.png" width="5" height="5">
+             <img border="0" alt="Instagram" src="./images/instagram-logo.png" width="5" height="10">
            </a>
          </li>
-        </ul>    </aside>
+        </ul>    
+  </aside>
+  
+  <div class="posts">
+    {% for post in site.posts %}
+      <article class="post">
+
+        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+        <div class="entry">
+          {{ post.excerpt }}
+        </div>
+
+        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      </article>
+      {% endfor %}
+    </div>
+  
     <script type="application/ld+json">
     {
         "@context": "http://schema.org",
