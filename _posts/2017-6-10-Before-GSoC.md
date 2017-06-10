@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Before GSoC"
+date:   2017-05-4 16:16:01 -0600
+---
+
 ## Google Summer of Code 2017
 
 ### Before GSoC
