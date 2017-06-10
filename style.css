@@ -180,6 +180,28 @@ p {
 .profile-social-links li a img, .profile-social-links li a svg {
   width: 24px;
 }
+
+.posts > .post {
+  padding-bottom: 2em;
+  border-bottom: 1px solid $lightGray;
+}
+
+.posts > .post:last-child {
+  padding-bottom: 1em;
+  border-bottom: none;
+}
+
+.post {
+  blockquote {
+    margin: 1.8em .8em;
+    border-left: 2px solid $gray;
+    padding: 0.1em 1em;
+    color: $gray;
+    font-size: 22px;
+    font-style: italic;
+  }
+}
+
 @-webkit-keyframes init {
   0% {
     width: 0px;
