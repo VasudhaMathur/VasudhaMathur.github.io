@@ -65,7 +65,7 @@ p {
   animation: init 0.5s 0.2s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, moveDown 1s 0.8s cubic-bezier(0.6, -0.28, 0.735, 0.045) forwards, moveUp 1s 1.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards, materia 0.5s 2.7s cubic-bezier(0.86, 0, 0.07, 1) forwards;
 }
 .profile-card header {
-  width: 179px;
+  width: 200px;
   height: 280px;
   padding: 40px 20px 30px 20px;
   display: inline-block;
@@ -181,7 +181,7 @@ p {
   width: 24px;
 }
 
-.blog-card {
+.profile-card .blog-card {
   background: #FFB300;
   width: 56px;
   height: 16px;
@@ -201,7 +201,7 @@ p {
   -webkit-animation: init 0.5s 0.2s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, moveDown 1s 0.8s cubic-bezier(0.6, -0.28, 0.735, 0.045) forwards, moveUp 1s 1.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards, materia 0.5s 2.7s cubic-bezier(0.86, 0, 0.07, 1) forwards;
   animation: init 0.5s 0.2s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, moveDown 1s 0.8s cubic-bezier(0.6, -0.28, 0.735, 0.045) forwards, moveUp 1s 1.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards, materia 0.5s 2.7s cubic-bezier(0.86, 0, 0.07, 1) forwards;
 }
-.blog-card header {
+.profile-card .blog-card header {
   width: 56px;
   height: 16px;
   padding: 20px 20px 20px 20px;
@@ -216,10 +216,10 @@ p {
   -webkit-animation: moveIn 1s 3.1s ease forwards;
   animation: moveIn 1s 3.1s ease forwards;
 }
-.blog-card header h1 {
+.profile-card .blog-card header h1 {
   color: #34495E;
 }
-.blog-card header a {
+.profile-card .blog-card header a {
   display: inline-block;
   text-align: center;
   position: relative;
